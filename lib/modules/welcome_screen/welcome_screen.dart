@@ -1,7 +1,27 @@
-import 'package:flutter/material.dart';
+import 'dart:async';
 
-class WelcomeScreen extends StatelessWidget {
+import 'package:flutter/material.dart';
+import 'package:flutter_final_year_application/layout/app_layout_screen.dart';
+import 'package:flutter_final_year_application/modules/sigin_screen/signin_screen.dart';
+
+class WelcomeScreen extends StatefulWidget {
   @override
+  State<WelcomeScreen> createState() => _WelcomeScreenState();
+}
+
+class _WelcomeScreenState extends State<WelcomeScreen> {
+  @override
+  void initState() {
+    super.initState();
+    Timer(
+        Duration(seconds: 5),
+        () => Navigator.pushReplacement(
+            context,
+            MaterialPageRoute(
+                builder: (context) => Directionality(
+                    textDirection: TextDirection.rtl, child: SigninScreen()))));
+  }
+
   Widget build(BuildContext context) {
     return Scaffold(
       body: Stack(

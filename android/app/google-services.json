@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "280150663713",
+    "project_id": "livestock-941e6",
+    "storage_bucket": "livestock-941e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280150663713:android:b7b667d743467e8697b960",
+        "android_client_info": {
+          "package_name": "com.example.flutter_final_year_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280150663713-je8f41etf0iof12143fd1vt63img9up0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnDhmeVP08vvRJlxrbe3k3HI7oBwtHnSw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280150663713-je8f41etf0iof12143fd1vt63img9up0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "280150663713-td0rhu41vpj0p0p9rdtbsirh34tecfgo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterFinalYearApplication"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
